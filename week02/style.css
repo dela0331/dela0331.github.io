@@ -24,6 +24,28 @@
         background-color:rgb(255, 239, 216);
         margin-top:20px;
         margin-right:20px;
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
     }
+        .see-shop:hover{
+            background-color:rgb(235, 210, 175);
+            
+        }
 
+    .merchandise{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:26px;
+        color:rgb(116, 72, 18);
+        border:none;
+        border-radius:8px;
+        background-color:rgb(255, 239, 216);
+        margin-top:20px;
+        margin-right:20px;
+        padding-top:5px;
+        padding-bottom:5px;
+        padding-left:5px;
+        padding-right:5px;
+    }
 <style>
