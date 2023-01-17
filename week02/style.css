@@ -29,10 +29,17 @@
         padding-left:5px;
         padding-right:5px;
     }
-        .see-shop:hover{
+    .see-shop:hover{
             background-color:rgb(235, 210, 175);
-            
+            cursor:pointer;
+            font-size:30px;
+            transition:0.15s;
         }
+
+    .see-shop:active{
+            background-color:rgb(199, 165, 116);
+            font-size:35px;
+    }
 
     .merchandise{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -47,5 +54,17 @@
         padding-bottom:5px;
         padding-left:5px;
         padding-right:5px;
+    }
+
+    .merchandise:hover{
+            background-color:rgb(235, 210, 175);
+            cursor:pointer;
+            font-size:30px;
+            transition:0.15s;
+    }
+
+    .merchandise:active{
+            background-color:rgb(199, 165, 116);
+            font-size:35px;
     }
 <style>
