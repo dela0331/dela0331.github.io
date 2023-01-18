@@ -68,4 +68,17 @@
             background-color:rgb(199, 165, 116);
             font-size:35px;
     }
+
+    .textbox{
+        border-radius:8px;
+        background-color:rgb(208, 197, 182);
+        padding-left:5px;
+        padding-right:5px;
+        padding-top:5px;
+        padding-bottom:5px;
+        color:white;
+        border-color:rgb(129, 105, 76);
+    }
+
+    
 <style>
