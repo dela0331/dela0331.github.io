@@ -14,14 +14,16 @@
 .maintitle{
     color:white;
     font-family:customfont;
-    font-size:150px;
+    font-size:400px;
     text-align:center;
     letter-spacing:200px;
     display:block;
     padding-left:20px;
     padding-right:20px;
     padding-top:20px;
-    padding-bottom:20px;
+    padding-bottom:10px;
+    margin-bottom:0px;
+
 }
 
 .img1{
@@ -31,17 +33,20 @@
     border:solid;
     border-color:white;
     border-width:2px;
-    display:block;
+    display:inline-block;
+    
 }
 
 .img2{
-    width:500px;
-    height:300px;
+    width:100%;
     border-radius:8px;
     border:solid;
     border-color:white;
     border-width:2px;
-    display:block;
+    display:inline-block;
+    margin-top:40px;
+    object-fit:cover;
+    object-position:top;
 }
 
 .img3{
@@ -51,6 +56,8 @@
     border:solid;
     border-color:white;
     border-width:2px;
+    display:inline-block;
+    
 }
 
 .img4{
@@ -60,7 +67,7 @@
     border:solid;
     border-color:white;
     border-width:2px;
-    display:block;
+    display:inline-block;
 }
 
 .paragraph1{
@@ -85,7 +92,28 @@
     display:inline-block;
 }
 
+.div{
+    display:inline-block;
+}
+
+.mainimage{
+    display:inline-block;
+}
+
+.mainimageright{
+    display:inline-block;
+    object-fit:cover;
+    
+}
+
 .svg{
     fill:whitesmoke;
-    height:80px;
+    color:whitesmoke;
+    height:100px;
+}
+
+.svgbig{
+    fill:whitesmoke;
+    color:whitesmoke;
+    height:50%;
 }
