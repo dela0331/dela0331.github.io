@@ -1,0 +1,91 @@
+
+             @font-face{
+                font-family:customfont;
+                src: url(fonts/Doctor\ Glitch.otf);
+             }
+
+             @font-face{
+                font-family:customfont1;
+                src: url(fonts/neuropolitical\ rg.ttf);
+             }
+             ::selection {
+                background: rgb(145, 8, 8);
+              }
+.maintitle{
+    color:white;
+    font-family:customfont;
+    font-size:150px;
+    text-align:center;
+    letter-spacing:200px;
+    display:block;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.img1{
+    width:500px;
+    height:300px;
+    border-radius:8px;
+    border:solid;
+    border-color:white;
+    border-width:2px;
+    display:block;
+}
+
+.img2{
+    width:500px;
+    height:300px;
+    border-radius:8px;
+    border:solid;
+    border-color:white;
+    border-width:2px;
+    display:block;
+}
+
+.img3{
+    width:500px;
+    height:300px;
+    border-radius:8px;
+    border:solid;
+    border-color:white;
+    border-width:2px;
+}
+
+.img4{
+    width:500px;
+    height:300px;
+    border-radius:8px;
+    border:solid;
+    border-color:white;
+    border-width:2px;
+    display:block;
+}
+
+.paragraph1{
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:50px;
+    text-align:center;
+    letter-spacing:30px;
+    height:300px;
+    width:1500px;
+    display:inline-block;
+}
+
+.div1{
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:50px;
+    text-align:center;
+    letter-spacing:30px;
+    height:300px;
+    width:1500px;
+    display:inline-block;
+}
+
+.svg{
+    fill:whitesmoke;
+    height:80px;
+}

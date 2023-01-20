@@ -80,5 +80,10 @@
         border-color:rgb(129, 105, 76);
     }
 
+    .image1{
+        border-radius:8px;
+        text-align:center;
+    }
+
     
 <style>
