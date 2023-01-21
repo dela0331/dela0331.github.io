@@ -1,23 +1,23 @@
 
-             @font-face{
-                font-family:customfont;
-                src: url(fonts/Doctor\ Glitch.otf);
-             }
+     @font-face{
+            font-family:customfont;
+            src: url(fonts/Doctor\ Glitch.otf);
+        }
 
-             @font-face{
-                font-family:customfont1;
-                src: url(fonts/neuropolitical\ rg.ttf);
-             }
-             ::selection {
-                background: rgb(145, 8, 8);
-              }
+     @font-face{
+            font-family:customfont1;
+            src: url(fonts/neuropolitical\ rg.ttf);
+        }
+    ::selection {
+            background: rgb(145, 8, 8);
+        }
 
 
 
 .maintitle{
     color:whitesmoke;
     font-family:customfont;
-    font-size:20vw;
+    font-size:12vw;
     text-align:center;
     padding-left:2.2vw;
     padding-right:2.2vw;
