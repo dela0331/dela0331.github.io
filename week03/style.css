@@ -1,12 +1,14 @@
-<style>
-    <body>{
+   
+    @fontface{
+        font-family:customfont;
+        src: url(aSkhirTahun.otf);
     }
-
+    
     .bigheading{
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:customfont;
         font-size:50px;
         background-color:rgb(54,48,37);
-        color:rgb(255, 249, 239);
+        color:rgb(240, 237, 233);
         border-radius:8px;
         padding-top:20px;
         padding-bottom:20px;
@@ -19,7 +21,7 @@
     .ourstory{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size:26px;
-        color:rgb(54,48,37);
+        color:rgb(75, 66, 49);
         padding-left:20px;
         padding-right:20px;
         margin-bottom:6px;
@@ -28,7 +30,7 @@
     .ourstoryend{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size:20px;
-        color:rgb(116, 72, 18);
+        color:rgb(75, 66, 49);
         padding-left:20px;
         padding-right:20px;
         margin-bottom:6px;
@@ -39,17 +41,18 @@
     blockquote{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size:20px;
-        color:rgb(0, 0, 0);
+        color:rgb(117,105,81);
         padding-left:20px;
         padding-right:20px;
         background-color:
     }
 
     .see-shop,
-    .merchandise{
+    .merchandise,
+    .events{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size:26px;
-        color:rgb(116, 72, 18);
+        font-size:2vw;
+        color:rgb(117,105,81);
         border:none;
         border-radius:8px;
         background-color:rgb(255, 249, 239);
@@ -57,24 +60,25 @@
         margin-bottom:20px;
         margin-right:20px;
         margin-left:20px;
-        padding-top:5px;
-        padding-bottom:5px;
+        padding-top:1vw;
+        padding-bottom:1vw;
         padding-left:20px;
         padding-right:20px;
-        float:middle;
     }
     .see-shop:hover,
-    .merchandise:hover{
-            background-color:rgb(235, 210, 175);
+    .merchandise:hover,
+    .events:hover{
+            background-color:rgb(225, 210, 190);
             cursor:pointer;
-            font-size:30px;
+            font-size:2.5vw;
             transition:0.15s;
         }
 
     .see-shop:active,
-    .merchandise:active{
-            background-color:rgb(199, 165, 116);
-            font-size:35px;
+    .merchandise:active,
+    .events:active{
+            background-color:rgb(227, 205, 173);
+            font-size:3vw;
     }
 
     .textbox{
@@ -104,6 +108,9 @@
     .storygrid{
         display:grid;
         grid-template-columns:1fr;
+        padding-left:8vw;
+        padding-right:50vw;
+        text-align:left;
     }
 
     .searchbargrid{
@@ -116,13 +123,12 @@
 
     .buttongrid{
         display:grid;
-        grid-template-columns:1fr 1fr
+        grid-template-columns:1fr 1fr 1fr;
+        padding-left:12vw;
+        padding-right:12vw;
     }
 
     .imagegrid{
         display:grid;
         grid-template-columns:1fr;
     }
-
-    
-<style>
