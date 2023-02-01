@@ -3,9 +3,15 @@ h1{
     text-align:center;
 }
 
+.notesh1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+
 h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:center;
+    margin-top:10vw;
     padding-left:20vw;
     padding-right:20vw;
     padding-bottom:2vw;
@@ -17,6 +23,15 @@ p{
     padding-right:12vw;
     padding-bottom:2vw;
     text-align:justify;
+}
+
+.moreinfo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline;
+    justify-content:center;
+    text-align:center;
+
+
 }
 
 blockquote{
