@@ -1,7 +1,4 @@
-<style>
-    button {
-        
-    }
+
     .subscribe-button {
         background-color:rgb(187, 0, 0);
         color: white; 
@@ -100,4 +97,4 @@
             .add-to-cart-button:active {
             background-color:rgb(191, 166, 0)
             }
- </style>
+            
