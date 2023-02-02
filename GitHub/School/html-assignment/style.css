@@ -1,17 +1,16 @@
 h1{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    letter-spacing:1vw;
     text-align:center;
-}
-
-.notesh1{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align:center;
+    margin-top:4vw;
 }
 
 h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:normal;
     text-align:center;
-    margin-top:10vw;
+    margin-top:6vw;
     padding-left:20vw;
     padding-right:20vw;
     padding-bottom:2vw;
@@ -25,13 +24,34 @@ p{
     text-align:justify;
 }
 
-.moreinfo{
+.morebutton,
+.morebuttonbutton{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display:inline;
+    font-size:1.5vw;
+    display:flex;
     justify-content:center;
-    text-align:center;
+    cursor:pointer;
+    margin-top:1vw;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:40px;
+    padding-left:40px;
+    border:none;
+    border-radius:8px;
+    text-decoration:none;
+    margin-top:1.5vw;
+}
 
+.morebuttonbutton:hover{
+    background-color:darkgrey;
+    font-size:1.8vw;
+    transition:0.15s;
+}
 
+.morebuttonbutton:active{
+    background-color:rgb(42, 42, 42);
+    color:white;
+    font-size:2vw;
 }
 
 blockquote{
