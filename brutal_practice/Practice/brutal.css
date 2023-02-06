@@ -1,0 +1,118 @@
+
+     @font-face{
+            font-family:customfont;
+            src: url(fonts/Doctor\ Glitch.otf);
+        }
+
+     @font-face{
+            font-family:customfont1;
+            src: url(fonts/neuropolitical\ rg.ttf);
+        }
+    ::selection {
+            background: rgb(145, 8, 8);
+        }
+
+
+.img2{
+    width:65vw;
+    height:15vw;
+    border-radius:8px;
+    border:solid;
+    border-color:white;
+    border-width:0px;
+    object-fit:cover;
+    object-position:top;
+    vertical-align:top;
+    margin-right:18vw;
+    
+}
+
+.div1{
+    color:whitesmoke;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:50px;
+    text-align:center;
+    letter-spacing:30px;
+    height:300px;
+    width:1500px;
+}
+
+.svg2{
+    fill:whitesmoke;
+    color:whitesmoke;
+    height:4vw;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+    padding-top:0px;
+    padding-bottom:10px;
+    padding-left:1fr;
+    padding-right:0px;
+    vertical-align:center;
+}
+
+
+.svgbig,
+.svgbig1{
+    fill:whitesmoke;
+    color:whitesmoke;
+    height:30%;
+    display:inline-block;
+    padding-top:.5vw;
+    padding-left:6vw;
+}
+
+.maintitle{
+    color:whitesmoke;
+    font-family:customfont;
+    font-size:10vw;
+    text-align:center;
+    padding-left:2.2vw;
+    padding-right:2.2vw;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    margin-top:0px;
+    object-fit:cover;
+
+}
+
+.paragraph1{
+    color:whitesmoke;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:3vw;
+    display:flex;
+    text-align:center;
+    letter-spacing:15px;
+    margin:0;
+    padding-left:3vw;
+    padding-right:3vw;
+    height:100%;
+    width:100%;
+}
+
+    .titlesectionflex{
+        display:flex;
+        justify-content:center;
+        grid-template-columns:1fr;
+    }   
+
+    .titlecharmsflex{
+        display:flex;
+        justify-content:left;
+        margin:0, 0;
+        padding-left:30px;
+    }
+
+    .imagedetailsflex{
+        display:flex;
+        justify-content:left;
+        vertical-align:top;
+        margin:0, 0;
+        padding:0, 0;
+    }
+
+    @meta{
+        
+    }
