@@ -10,10 +10,10 @@ h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight:normal;
     text-align:center;
-    margin-top:6vw;
+    margin-top:2vw;
     padding-left:20vw;
     padding-right:20vw;
-    padding-bottom:2vw;
+    margin-bottom:2vw;
 }
 
 p{
@@ -24,6 +24,27 @@ p{
     text-align:justify;
 }
 
+blockquote{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left:12vw;
+    padding-right:12vw;
+    margin-top:2vw;
+    margin-bottom:2vw;
+}
+
+.hobbies{
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    padding-left:20vw;
+    padding-right:12vw;
+    padding-bottom:1vw;
+    margin-top:2vw;
+    text-align:left;
+}
+
+hr{
+    width:30vw;
+}
+
 .morebutton,
 .morebuttonbutton{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -31,7 +52,7 @@ p{
     display:flex;
     justify-content:center;
     cursor:pointer;
-    margin-top:1vw;
+    margin-top:0.2vw;
     padding-top:10px;
     padding-bottom:10px;
     padding-right:40px;
@@ -42,8 +63,12 @@ p{
     margin-top:1.5vw;
 }
 
+.morebuttonbutton{
+    background-color:rgb(238, 238, 238);
+}
+
 .morebuttonbutton:hover{
-    background-color:darkgrey;
+    background-color:rgb(222, 222, 222);
     font-size:1.8vw;
     transition:0.15s;
 }
@@ -54,16 +79,10 @@ p{
     font-size:2vw;
 }
 
-blockquote{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left:12vw;
-    padding-right:12vw;
-    margin-top:4vw;
-}
 
 footer{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size:12px;
-    margin-top:10vw;
+    margin-top:6vw;
     margin-left:12vw;
 }
