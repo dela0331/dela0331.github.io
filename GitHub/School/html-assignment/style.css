@@ -1,9 +1,14 @@
+::selection {
+    background: rgb(142, 166, 187);
+  }
+
 h1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight:bolder;
     letter-spacing:1vw;
     text-align:center;
     margin-top:4vw;
+    margin-bottom:2vw;
 }
 
 h2{
@@ -16,28 +21,49 @@ h2{
     margin-bottom:2vw;
 }
 
-p{
+.gridcontainer{
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    margin-bottom:4vw;
+}
+
+.image1{
+    height:14vw;
+    margin-left:2vw;
+    border-radius:2px;
+}
+
+.image2{
+    height:6vw;
+    margin-top:2vw;
+}
+
+.griditem2{
+    margin-top:16px;
+}
+
+p,
+.blockquote{
     font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     padding-left:12vw;
-    padding-right:12vw;
+    padding-right:4vw;
     padding-bottom:2vw;
     text-align:justify;
 }
 
-blockquote{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left:12vw;
-    padding-right:12vw;
-    margin-top:2vw;
-    margin-bottom:2vw;
+.gridcontainerbottom{
+    display:grid;
+    grid-template-columns:1fr 1fr;
 }
+
+
 
 .hobbies{
     font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
-    padding-left:20vw;
+    padding-left:0vw;
     padding-right:12vw;
     padding-bottom:1vw;
-    margin-top:2vw;
+    margin-left:4.5vw;
     text-align:left;
 }
 
@@ -46,9 +72,10 @@ hr{
 }
 
 .morebutton,
-.morebuttonbutton{
+.morebuttonbutton,
+.returnbutton{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:1.5vw;
+    font-size:1.2vw;
     display:flex;
     justify-content:center;
     cursor:pointer;
@@ -60,25 +87,38 @@ hr{
     border:none;
     border-radius:8px;
     text-decoration:none;
-    margin-top:1.5vw;
 }
 
-.morebuttonbutton{
+.morebuttonbutton,
+.returnbutton{
     background-color:rgb(238, 238, 238);
 }
 
-.morebuttonbutton:hover{
+.morebuttonbutton:hover,
+.returnbutton:hover{
     background-color:rgb(222, 222, 222);
-    font-size:1.8vw;
+    font-size:1.5vw;
     transition:0.15s;
 }
 
-.morebuttonbutton:active{
+.morebuttonbutton:active,
+.returnbutton:active{
     background-color:rgb(42, 42, 42);
     color:white;
     font-size:2vw;
 }
 
+.dl{
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    padding-left:12vw;
+    padding-right:4vw;
+    padding-bottom:2vw;
+    text-align:justify;
+}
+
+dd{
+    margin-bottom:2vw;
+}
 
 footer{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
