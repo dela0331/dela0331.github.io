@@ -1,0 +1,133 @@
+@fontface{
+    font-family:customfont;
+    src: url(aSkhirTahun.otf);
+}
+
+.bigheading{
+    font-family:customfont;
+    font-size:50px;
+    background-color:rgb(54,48,37);
+    color:rgb(240, 237, 233);
+    border-radius:8px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align:center;
+    cursor:default;
+}
+
+.ourstory{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:26px;
+    color:rgb(75, 66, 49);
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:6px;
+}
+
+.ourstoryend{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    color:rgb(75, 66, 49);
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:6px;
+}
+
+
+.ourstorytext,
+blockquote{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    color:rgb(117,105,81);
+    padding-left:20px;
+    padding-right:20px;
+    background-color:
+}
+
+.see-shop,
+.merchandise,
+.events{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:2vw;
+    color:rgb(117,105,81);
+    border:none;
+    border-radius:8px;
+    background-color:rgb(255, 249, 239);
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:20px;
+    margin-left:20px;
+    padding-top:1vw;
+    padding-bottom:1vw;
+    padding-left:20px;
+    padding-right:20px;
+}
+.see-shop:hover,
+.merchandise:hover,
+.events:hover{
+        background-color:rgb(225, 210, 190);
+        cursor:pointer;
+        font-size:2.5vw;
+        transition:0.15s;
+    }
+
+.see-shop:active,
+.merchandise:active,
+.events:active{
+        background-color:rgb(227, 205, 173);
+        font-size:3vw;
+}
+
+.textbox{
+    border-radius:8px;
+    background-color:rgb(208, 197, 182);
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    border-color:rgb(129, 105, 76);
+}
+
+.image1{
+    border-radius:8px;
+    text-align:center;
+}
+
+
+.bigheadgrid{
+    display:grid;
+    grid-template-columns:1fr;
+    padding-left:6vw;
+    padding-right:6vw;
+}
+
+.storygrid{
+    display:grid;
+    grid-template-columns:1fr;
+    padding-left:8vw;
+    padding-right:50vw;
+    text-align:left;
+}
+
+.searchbargrid{
+    display:grid;
+    grid-template-columns:300px;
+    padding-left:6vw;
+    padding-right:6vw;
+    margin-bottom:30px;
+}
+
+.buttongrid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    padding-left:12vw;
+    padding-right:12vw;
+}
+
+.imagegrid{
+    display:grid;
+    grid-template-columns:1fr;
+}
