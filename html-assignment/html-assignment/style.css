@@ -2,6 +2,7 @@
     background: rgb(142, 166, 187);
   }
 
+<<<<<<< HEAD
 body{
     font-size:18px;
 }
@@ -13,6 +14,9 @@ footer{
 
 .site-title{
     color:rgb(50, 50, 50);
+=======
+h1{
+>>>>>>> d8e4962d26300b4a040cc565873861f55f5cc229
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight:bolder;
     letter-spacing:1vw;
@@ -38,7 +42,11 @@ h2{
     margin-bottom:4vw;
 }
 
+<<<<<<< HEAD
 #my-image{
+=======
+.image1{
+>>>>>>> d8e4962d26300b4a040cc565873861f55f5cc229
     height:14vw;
     margin-left:2vw;
     border-radius:2px;
@@ -135,6 +143,7 @@ footer{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size:12px;
     margin-top:6vw;
+<<<<<<< HEAD
     padding-left:12vw;
 }
 
@@ -143,3 +152,7 @@ footer{
 header #logo{}
 
 .nav-list li a{}
+=======
+    margin-left:12vw;
+}
+>>>>>>> d8e4962d26300b4a040cc565873861f55f5cc229
